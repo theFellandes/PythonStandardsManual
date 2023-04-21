@@ -9,8 +9,13 @@ class ClassExample:
     weight: float = 0.0
 
     def __post_init__(self):
-        self.height = self.height * 2.54
-        self.weight = self.weight * 0.453592
+        self.height = self.set_metrics(self.height, 2.54)
+        self.weight = self.set_metrics(self.weight, 0.453592)
+
+    @staticmethod
+    def set_metrics(width_or_height: float, multiplier: float) -> float:
+        """ Returns width or height multiplied by multiplier """
+        return width_or_height * multiplier
 
     def __str__(self):
         return f'Name: {self.name}, Age: {self.age}, Height: {self.height}, Weight: {self.weight}'
