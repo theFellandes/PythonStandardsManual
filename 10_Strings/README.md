@@ -44,4 +44,4 @@ from some.deep.module.inside.a.module import (
 ```
 
 Here is a figure from Real Python that explains the decision-making process of using string formatting methods:
-![String Decision Tree](Figures/python-string-formatting-flowchart.png)
+![String Decision Tree](https://github.com/theFellandes/PythonStandardsManual/blob/main/Figures/python-string-formatting-flowchart.png)
