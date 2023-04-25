@@ -83,3 +83,14 @@ Raises:
 I prefer the Google format since it is more pythonic compared to other Epydoc and more expressive than short sentence method.
 
 ### Inline comments should be used rarely since they cloud the source code ###
+
+If you need to use inline comments, PEP 8 recommends the followings:
+1) Each line of a block comment starts with a # and a single space (unless it is indented text inside the comment).
+```python
+# This is a block comment
+print('Something')
+```
+2) Inline comments should be separated by at least two spaces from the statement. They should start with a # and a single space.
+```python
+print('Something')  # This prints something
+```

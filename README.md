@@ -6,6 +6,8 @@ The main goal of this manifesto is being a summarization of PEP 8, PEP 256, PEP 
 
 Remember: 4 spaces, not 1 tab.
 
+Also remember: Don't use .format, use f-string
+
 Each topic in the Table of Contents has its own directory with a README.md file. 
 
 The contents of this manifesto isn't final and will be updated as I learn more about Python coding standards.
@@ -19,6 +21,9 @@ The contents of this manifesto isn't final and will be updated as I learn more a
 5) [Imports](5_Imports/README.md)
 6) [Exception Handling](6_ExceptionHandling/README.md)
 7) [Unit Test Format](7_UnitTestFormat/README.md)
+8) [Logging](8_Logging/README.md)
+9) [Linters and Formatters](9_LintersAndFormatters/README.md)
+10) [Strings](10_Strings/README.md)
 
 ### References
 * [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
@@ -29,3 +34,5 @@ The contents of this manifesto isn't final and will be updated as I learn more a
 * [9 Reasons Why You Should Start Using Python Dataclasses](https://towardsdatascience.com/9-reasons-why-you-should-start-using-python-dataclasses-98271adadc66)
 * [Python Dataclasses](https://realpython.com/python-data-classes/)
 * [What are the most common Python docstring formats?](https://stackoverflow.com/questions/3898572/what-are-the-most-common-python-docstring-formats)
+* [Python String Formatting](https://www.pythoncheatsheet.org/cheatsheet/string-formatting)
+* [The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/style/)
