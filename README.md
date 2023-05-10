@@ -36,3 +36,7 @@ The contents of this manifesto isn't final and will be updated as I learn more a
 * [What are the most common Python docstring formats?](https://stackoverflow.com/questions/3898572/what-are-the-most-common-python-docstring-formats)
 * [Python String Formatting](https://www.pythoncheatsheet.org/cheatsheet/string-formatting)
 * [The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/style/)
+* [Robust exception handling](https://eli.thegreenplace.net/2008/08/21/robust-exception-handling/)
+* [Best Practices](https://www.learnpython.dev/03-intermediate-python/40-exceptions/70-best-practices/)
+* [7 Tips to Improve Your Error Handling in Python](https://pybit.es/articles/pythonic-exceptions/)
+* 
